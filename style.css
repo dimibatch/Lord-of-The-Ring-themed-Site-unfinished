@@ -1,0 +1,335 @@
+@font-face {
+    font-family: LOTR;
+    src: url(anicb___.ttf);
+}
+
+@font-face {
+    font-family: LOTR2;
+    src: url(partybusiness.ttf)
+}
+
+@font-face {
+    font-family: LOTR3;
+    src: url(tnganb.ttf)
+}
+
+@font-face {
+    font-family: LOTR4;
+    src: url(tngani.ttf)
+}
+
+/*------EVERY SECTION-------*/
+.container {
+    max-width: 1000px;
+    justify-content: center;
+/*    margin-top: 0.3rem;*/
+    padding: 0.5rem 0.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.border-bot {
+    border-bottom: solid medium;
+}
+
+/*
+#vwidth {
+    font-size: 1vw;
+}
+*/
+/*------NAVBAR-------*/
+.topbar {
+    color: white;
+}
+
+#nav-container {
+    background-color: #FF5D00;
+    padding: 0;
+}
+
+.lotr {
+    font-family: LOTR;
+}
+
+.souligner {
+    border-bottom: white solid 0.3em;
+}
+
+.neg-pad {
+    padding-bottom: 0.12em;
+}
+
+#navbarNav {
+/*    margin-left: 0em;*/
+    justify-content: flex-end;
+    
+}
+
+/*------CAROUSEL-------*/
+#carousel-container {
+    max-width: 1000px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    
+}
+
+.car {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lotr2 {
+    font-family: LOTR2;
+}
+
+.lotr3 {
+    font-family: LOTR3;
+}
+
+.lotr4 {
+    font-family: LOTR4;
+    font-weight:lighter;
+    padding-bottom: em;
+}
+
+.big-font {
+    font-size: 4rem;
+}
+
+.big-big-font {
+    font-size: 5rem;
+    color: white;
+}
+
+.med-font {
+    font-size: 2rem;
+}
+
+.dv {
+    text-align: right;
+    margin-left: 10rem;
+    font-family: LOTR2;
+    
+}
+
+.mt-10 {
+    padding-top: 3rem;
+}
+
+
+/*------PILLS-------*/
+/*
+#h4-inline {
+    font-size 0.5rem;
+}
+*/
+
+#fellow-container {
+    background-image: url(integration_maquette_finale/bg_light.png);
+    padding-top: 2em;
+}
+.wanteddead {
+    font-size: 1.5em;
+}
+
+#eat-them {
+    color: black;
+font-size: 0.55em;
+}
+
+#pills {
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+.page-link {
+    background-image: url(integration_maquette_finale/bg_light.png);
+    color: darkgray;
+    padding-bottom: 0;
+}
+
+#mainlink {
+    color: #FF5D00;
+    border-bottom: solid thick;
+    padding-bottom: 0;
+}
+
+.symbol {
+    font-size: 1.3rem;
+    padding-bottom: 0;
+}
+
+/*------CARDS-------*/
+/*
+#most-wanted-container {
+    max-height: 400px ;
+}
+*/
+
+.card-body {
+    padding: 0.7em ;
+}
+
+.card-body {
+    background-color: black;
+}
+
+.card img {
+   max-height: 300px ; 
+}
+
+.card-title {
+    font-size: 1.75em;
+    color: darkgray;
+}
+
+
+.containgandalf {
+  text-align: center;
+/*
+  max-width: 350px;
+  max-height: 400px;
+*/
+  position: relative;
+/*  width: 30%;*/
+  margin: 0 auto;
+  font-family: "lotr2";
+  background-color: black;
+}
+
+.containgandalf h5 {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  right: 10%;
+  color: white;
+  font-size: 350%;
+  z-index: 6;
+}
+
+.containgandalf img {
+  position: relative;
+  width: 100%;
+/*  height: 100%;*/
+  object-fit: contain;
+  opacity: 0.5;
+  z-index: 0;
+    
+}
+
+.containgandalf p{
+  background-color: white;
+    font-size: 1.5em;
+/*  font-size: 250%;*/
+  position: absolute;
+  right: 5%;
+  left: 5%;
+  padding: 2% 0%;
+  margin: 3%;
+  border-radius: 0.3em;
+  opacity: 0.80;
+  z-index: 5;
+}
+
+span {
+  color: #FF5D00;
+}
+
+.containgandalf:hover p {
+  visibility: hidden;
+}
+
+.containgandalf:hover h5 {
+  font-size: 150%;
+  bottom: 1rem;
+}
+
+.containgandalf:hover img {
+  opacity: 1;
+}
+
+.line-through {
+    text-decoration: line-through #FF5D00;
+}
+
+#gimli p {
+    background: none;
+    font-size: 3.5em;
+/*  font-size: 250%;*/
+  position: absolute;
+  right: 5%;
+  left: 5%;
+  padding: 2% 0%;
+  margin: 3%;
+  border-radius: 0.3em;
+  opacity: 1;
+  z-index: 5;
+}
+
+.dead {
+    color: #FF5D00;
+}
+/*------TEXT-------*/
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#button-captured {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+/*-----MEDIA / BEST HUNTERS------*/
+.facebook {
+    display: flex;
+    flex-direction: row;
+}
+
+/*-----ABOUT THE RING------*/
+td, th {
+    text-align: center;
+}
+
+/*-----JOIN------*/
+
+
+/*-----CONTACT US------*/
+textarea {
+    height: 10rem;
+}
+
+/*-----FOOTER------*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.biglink {
+    justify-content: center;
+}
+
+span {
+    font-weight:bold;
+}
+
+.link-container a {
+    color: white;
+}
